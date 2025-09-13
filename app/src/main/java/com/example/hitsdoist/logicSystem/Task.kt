@@ -3,9 +3,10 @@ package com.example.hitsdoist.logicSystem
 import kotlinx.serialization.Serializable
 import java.util.UUID
 
+
 @Serializable
 data class Task(
-    val id: UUID = UUID.randomUUID(),
+    val id: String = UUID.randomUUID().toString(),
     private var description: String,
     var isDone: Boolean
 ){
