@@ -1,4 +1,4 @@
-package com.example.hitsdoist.ui.theme
+package com.example.hitsdoist.presentation.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
